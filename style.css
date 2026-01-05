@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.password-display {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#passwordOutput {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    background: #e9ecef;
+}
+
+#copyButton {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#copyButton:hover {
+    background-color: #0056b3;
+}
+
+.controls {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+#passwordLength {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#generateButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#generateButton:hover {
+    background-color: #1e7e34;
+}
+
+.note {
+    margin-top: 20px;
+    color: #6c757d;
+    font-size: 0.9em;
+}
+/* Ajoutez ces nouvelles règles CSS à la fin de votre fichier style.css */
+
+#fillButton {
+    /* Assure que le bouton prend toute la largeur du conteneur */
+    width: 100%;
+    /* Espacement interne */
+    padding: 12px;
+    /* Marge pour le séparer du bouton "Générer" au-dessus */
+    margin-top: 10px; 
+    /* Utilisation d'une couleur différente (Bleu) pour la distinction */
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#fillButton:hover {
+    /* Effet au survol pour améliorer l'expérience utilisateur */
+    background-color: #0056b3;
+}
