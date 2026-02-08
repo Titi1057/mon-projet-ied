@@ -19,9 +19,8 @@ body {
 }
 
 h1 {
-    color: #333;
-    margin-bottom: 30px;
-    font-size: 1.5em;
+     color: darkblue; 
+     font-family:sans-serif; }
 }
 
 .password-display {
@@ -114,4 +113,5 @@ label {
 #fillButton:hover {
     /* Effet au survol pour améliorer l'expérience utilisateur */
     background-color: #0056b3;
-}h1 { color: red; text-align: center; }
+}
+Test de connexion
